@@ -1,4 +1,7 @@
 # Proyecto raspberry-ia
+
+![Logo Raspberry IA](images/rasperry_IA.png)
+
 Guía paso a paso para montar un entorno optimizado de inteligencia artificial en Raspberry Pi 5 usando Ubuntu 25, SSD NVMe, Docker y Ollama.
 
 ---
