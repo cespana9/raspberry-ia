@@ -1,5 +1,4 @@
 #  Evaluación de un VLM en Raspberry Pi 5
-
 Este documento recoge una prueba de un modelo Vision-Language Model (VLM) ejecutado en una Raspberry Pi 5 utilizando Python y Ollama.
 
 ---
