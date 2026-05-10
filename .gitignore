@@ -6,6 +6,7 @@ __pycache__/
 *.gguf
 ollama_data/
 .DS_Store
+captura.jpg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

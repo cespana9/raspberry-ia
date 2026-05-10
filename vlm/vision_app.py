@@ -14,7 +14,7 @@ if not cap.isOpened():
 ret, frame = cap.read()
 
 if ret:
-    frame = cv2.resize(frame, (224, 224))
+    frame = cv2.resize(frame, (640, 480))
 
     cv2.imwrite(IMG_PATH, frame)
     print("Imagen capturada:", IMG_PATH)
@@ -32,13 +32,13 @@ with open(IMG_PATH, 'rb') as f:
         messages=[
             {
                 'role': 'user',
-                'content': 'Describe lo que ves de forma breve',
+                'content': 'Describe the image briefly.',
                 'images': [f.read()],
             }
         ],
         options={
             'temperature': 0,
-            'num_predict': 25
+            'num_predict': 45
         }
     )
 
