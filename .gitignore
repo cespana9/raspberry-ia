@@ -1,3 +1,12 @@
+# proyecto de IA para Raspberry Pi
+venv/
+__pycache__/
+*.pyc
+.env
+*.gguf
+ollama_data/
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
